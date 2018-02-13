@@ -1,0 +1,15 @@
+truncate table m_locality;
+
+Load m_location_analysis.xlsx spreadsheet m_location tab in m_location table using Toad import wizard.
+
+update locality
+set m_name=null;
+
+update locality l
+join m_locality m on l.NAME=m.name
+set l.m_name=m.m_name
+where l.REGION='east';
+
+select * from locality
+where region='east';
+

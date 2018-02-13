@@ -1,0 +1,29 @@
+
+www.scriptime.blogspot.in 
+------------------------------------------
+Table structure for table `tb_username`
+---------------------------------------- 
+
+CREATE TABLE `username` (
+  `id` int(5) NOT NULL auto_increment,
+  `name` varchar(30) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=167 ;
+
+
+Dumping data for table `tb_username`
+---------------------------------------- 
+
+INSERT INTO `username` (`id`, `name`) VALUES 
+(1, 'midhun'),
+(2, 'scriptime'),
+(3, 'ajax'),
+(4, 'php'),
+(5, 'auto'),
+(6, 'blablabla'),
+(7, 'how'),
+(8, 'john'),
+(9, 'sam'),
+(10, 'smith');
+
+-------------------------------------------------

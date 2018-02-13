@@ -1,0 +1,18 @@
+pagination -done
+pagination- highlight current page -done
+load indicator while loading the page -done
+not null db fields
+if no result is retured do not insert(check list length is greater than 1) -Done
+
+issue
+
+1.Others filter not working- Done
+2.https://www.99acres.com/rent-property-in-bellandur-bangalore-south-ffid-page-4
+200
+None rows inserted successfully
+3.Posted by filter distinct value(agent,dealer) -done
+4.504 Timeout issue-done
+Auto scroll scraping -Done
+php oracle connection -Pending
+php to python page call -Done
+mapping 99 acres location to magic bricks
