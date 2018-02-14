@@ -82,7 +82,7 @@ def get_property_details():
             pge_cnt = 99
             print("Page not found")
             break;
-        print(page.status_code)
+      #  print(page.status_code)
         soup = BeautifulSoup(page.content, 'html.parser')
         all = soup.find_all("div", class_='resultBox srp-card-opt-3')
         for item in all:
