@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>MySQL table search</title>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css "/>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css "/>
+    <style>
+    html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+      body{
+
+      }
+      .bg-bdy{
+        /* background-color:#fdc600; */
+        height: 100%;
+        background:url('images/bg-images.jpg'), rgba(52, 73, 94, 0.75);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        /* background-color: #464646; */
+      }
+      .header{
+        background-color: #fff;
+        height: 12%;
+      }
+      .header h1{
+        color:#fdc600;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="container-fluid bg-bdy">
+        <div class="container-fluid header">
+            <h1>Home Rental Search</h1>
+        </div>
+        <br/>
+        <div class=" container well ">
+          <form id="form1" name="form1" method="get" autocomplete="off" action="/main/search_property.php" class="form-inline text-center">
+            <div class="">
+              <div class="form-group">
+                <label for="keyword">Location</label>
+                <input name="location" value="" type="text" id="keyword" tabindex="0" class="form-control">
+                <input name="created_date_time" value="" type="hidden">
+              </div>
+              <div class="form-group">
+                <label for="bedrmsslct">Bedrooms</label>
+                <select  class="form-control" id="bedrmsslct" name="Bedrooms">
+                  <option value="">--</option>
+	                <option value='1 BHK'>1 BHK</option>
+                  <option value='2 BHK'>2 BHK</option>
+                  <option value='3 BHK'>3 BHK</option>
+                  <option value='4 BHK'>4 BHK</option>
+                  <option value='5 BHK'>5 BHK</option>
+                  <option value='Others'>Others</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="pstbyslct">Posted By</label>
+                <select  class="form-control" id="pstbyslct" name="posted_by">
+                  <option value="">--</option>
+	                <option value='Owner'>Owner</option>
+                  <option value='Agent'>Agent</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="srtbyslct">Sort_by</label>
+                <select  class="form-control" id="srtbyslct" name="sort_by">
+                  <option value="">--</option>
+                	<option value='last_3_days'>Last 3 Days</option>
+                	<option value='last_7_days'>Last 7 Days</option>
+                	<option value='price_high_to_low'>Price High to Low</option>
+                	<option value='price_low_to_high'>Price Low to High</option>
+                </select>
+              </div>
+              <button type="submit" name="button" id="button" value="Filter" class="btn btn-default">Filter</button>
+              <a href="search_property.php">reset</a>
+            </div>
+          </form>
+          <br/>
+          <table class="table users" border="1" >
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Heading</th>
+                <th>Price</th>
+                <th>Buildup</th>
+                <th>Posted_date</th>
+                <th>Posted_by</th>
+                <th>Name</th>
+                <th>Property_details</th>
+              </tr>
+            </thead>
+            
+    <tr><td colspan="5">No results found.</td></tr>
+          </table>
+          <div class="pagination" id="lnk" style="text-align: left;">
+	<span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 18px; ">
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=1">1</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=2">2</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=3">3</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=4">4</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=5">5</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=6">6</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=7">7</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=8">8</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=9">9</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=10">10</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=11">11</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=12">12</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=13">13</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=14">14</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=15">15</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=16">16</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=17">17</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=18">18</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=19">19</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=20">20</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=21">21</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=22">22</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=23">23</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=24">24</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=25">25</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=26">26</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=27">27</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=28">28</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=29">29</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=30">30</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=31">31</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=32">32</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=33">33</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=34">34</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=35">35</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=36">36</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=37">37</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=38">38</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=39">39</a> &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=40">40</a>
+    &nbsp;&nbsp;<a href="http://192.168.1.4/main/search_property.php&page=41">41</a>
+  </span></div>
+
+      </div>
+    <script src="dist/js/jquery.js" type="text/javascript"></script>
+    <script src="dist/js/script.js" type="text/javascript"></script>
+    <script src="dist/js/read_more.js"></script>
+    <script src="dist/js/bootstrap.min.js" type="text/javascript"></script>

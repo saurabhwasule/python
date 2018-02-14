@@ -183,13 +183,13 @@ echo "<option value='" . $row["posted_by"] . "'" . ($row["posted_by"] == $_REQUE
               </th>
               <th>Buildup
               </th>
-              <th>Posted_date
+              <th>Posted date
               </th>
-              <th>Posted_by
+              <th>Posted by
               </th>
               <th>Name
               </th>
-              <th>Property_details
+              <th>Property details
               </th>
             </tr>
             <?php
@@ -272,7 +272,8 @@ $pagination .= "<div class=\"pagination\">";
 if ($page > 1) 
 $pagination.= "<a href=\"$targetpage&page=$prev\">&lt&ltprevious</a>";
 else
-$pagination.= "<span class=\"disabled\">&lt&ltprevious</span>";	
+//$pagination.= "<span class=\"disabled\">&lt&ltprevious</span>";
+$pagination.= "";	
 //pages	
 if ($lastpage < 7 + ($adjacents * 2))	//not enough pages to bother breaking it up
 {	
@@ -336,7 +337,8 @@ $pagination.= "<a href=\"$targetpage&page=$counter\">$counter</a>";
 if ($page < $counter - 1) 
 $pagination.= "<a href=\"$targetpage&page=$next\">next >></a>";
 else
-$pagination.= "<span class=\"disabled\">next >></span>";
+//$pagination.= "<span class=\"disabled\">next >></span>";
+$pagination.= "";
 $pagination.= "</div>\n";		
 }
 $sql_result = mysqli_query($mysqli, $sql) or die(mysqli_error());

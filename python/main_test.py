@@ -13,10 +13,10 @@ import cgi, cgitb
 
 cgitb.enable()  # for debugging
 form = cgi.FieldStorage()
-search_loc = 'panathur'
-days_ago = 7
-# search_loc = form.getvalue('location')
-# days_ago = form.getvalue('posted_since')
+# search_loc = 'panathur'
+# days_ago = 7
+search_loc = form.getvalue('location')
+days_ago = form.getvalue('posted_since')
 # now = (datetime.datetime.now()).strftime("%d%m%Y%H%M%S")+str(round(time.time() * 1000) )#current time +millisecond
 now = time.strftime('%Y-%m-%d %H:%M:%S')
 id = time.strftime('%Y%m%d%H%M%S')
@@ -69,7 +69,7 @@ print(
        days_ago) + '&created_date_time=' + str(created_date_time1).replace(" ", ";")
    + '">')
 # print(
-# 	'<meta HTTP-EQUIV="REFRESH" content="0; url=http://localhost:1234/main/search_property.php?location=' + search_loc + '&posted_since=' + str(
+# 	'<meta HTTP-EQUIV="REFRESH" content="0; url=http://localhost:1234/search_property.php?location=' + search_loc + '&posted_since=' + str(
 # 		days_ago) + '&created_date_time=' + str(created_date_time1).replace(" ", ";")
 # 	+ '">')
 print('</head>')

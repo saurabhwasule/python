@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Baby Names Database</title>
+</head>
+<body>
+<h1>Baby Names</h1>
+<h3>Please fill in the blanks below, and We'll return baby names for you to browse.</h3>
+<form method = "post" action = "practiceBaby5.php">
+<table border = "1">
+<tr>
+<th align = "left">Gender:</th>
+<th>
+<input type = "radio" name = "male" value = "yes">Boys Names<br />
+<input type = "radio" name = "female" value = "yes">Girls Names<br />
+</th>
+<tr>
+	<th align = "left">Meaning:</th>
+	<th>
+		<input type = "text" name = "meaning" value = "">
+	</th>
+</tr>
+<tr>
+	<th align = "left">Name Begins With:</th>
+	<th>
+		<input type = "text" name = "name" value = "">
+	</th>
+</tr>
+<tr>
+	<th align = "left">Origin</th>
+	<th>
+		<select name = "origin">
+		<option value = "Muslim">Muslim</option>
+		<option value = "anglo">Anglo</option>
+		<option value = "african">African</option>
+		<option value = "celtic">Celtic</option>
+		</select>
+	</th>
+</tr>
+<tr>
+	<td colspan = 2> <br />
+		<center>
+			<input type = "submit" value = "Show me Names">
+		</center>
+	</td>
+</tr>
+</table>
+</form>
+		
+</body>
+</html>

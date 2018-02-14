@@ -22,3 +22,77 @@ panathur location searched in past 4 hour.Latest known timestamp: 2018-02-13 00:
 b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Panathur&&pageOption=B&parameter=recent\r\n200\r\n19 rows inserted successfully. \r\n'
 b'https://www.99acres.com/rent-property-in-panathur-bangalore-east-ffid\r\n5 rows inserted successfully. \r\n'
 28.06578755378723  seconds
+20180213121023 panathur 7
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Panathur&&pageOption=B&parameter=recent\r\n200\r\nhttps://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Panathur&&pageOption=B&parameter=recent/Page-1\r\n200\r\n20 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-panathur-bangalore-east-ffid\r\n5 rows inserted successfully. \r\n'
+43.03417468070984  seconds
+20180213121120 panathur 7
+panathur location searched in past 4 hour.Latest known timestamp: 2018-02-13 12:10:23
+0.06315207481384277  seconds
+20180213121208 kadubeesanahalli 3
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Kadubeesanahalli&&pageOption=B&parameter=recent\r\n200\r\n6 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-kadubeesanahalli-bangalore-east-ffid\r\n1 rows inserted successfully. \r\n'
+31.09383201599121  seconds
+20180213125843 t 7
+t location in not present in MagicBrick....
+b''
+0.6503818035125732  seconds
+20180213130046 maithri layout 3
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Maithri-Layout&&pageOption=B&parameter=recent\r\n200\r\nNo record found.\r\n'
+b'https://www.99acres.com/rent-property-in-maithri-layout-bangalore-east-ffid\r\n2 rows inserted successfully. \r\n'
+23.311887502670288  seconds
+20180213130121 marathahalli 3
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent\r\n200\r\nhttps://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent/Page-1\r\n200\r\n26 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-marathahalli-bangalore-east-ffid\r\n19 rows inserted successfully. \r\n'
+24.808459281921387  seconds
+20180213130407 no location found 3
+no location found location in not present in MagicBrick....
+b''
+0.6274673938751221  seconds
+20180213130457 marathahalli 3
+marathahalli location searched in past 4 hour.Latest known timestamp: 2018-02-13 13:01:21
+0.04688906669616699  seconds
+20180213130813 no location found 3
+no location found location in not present in MagicBrick....
+b''
+0.5056107044219971  seconds
+20180213130834 tc palaya 30
+tc palaya location in not present in MagicBrick....
+b'https://www.99acres.com/rent-property-in-tc-palaya-bangalore-east-ffid\r\n22 rows inserted successfully. \r\n'
+21.52127504348755  seconds
+20180213230448 panathur 3
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Panathur&&pageOption=B&parameter=recent\r\n200\r\n7 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-panathur-bangalore-east-ffid\r\n2 rows inserted successfully. \r\n'
+26.7760910987854  seconds
+20180214000802 kasavanhalli 7
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Kasavanahalli&&pageOption=B&parameter=recent\r\n200\r\n16 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-kasavanhalli-bangalore-east-ffid\r\n8 rows inserted successfully. \r\n'
+34.34767031669617  seconds
+20180214010003 kammanahalli 3
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Kammanahalli&&pageOption=B&parameter=recent\r\n200\r\n1 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-kammanahalli-bangalore-east-ffid\r\n1 rows inserted successfully. \r\n'
+25.70202946662903  seconds
+20180214010458 panathur 7
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Panathur&&pageOption=B&parameter=recent\r\n200\r\n19 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-panathur-bangalore-east-ffid\r\n3 rows inserted successfully. \r\n'
+25.197704792022705  seconds
+20180214011024 panathur 7
+panathur location searched in past 4 hour.Latest known timestamp: 2018-02-14 01:04:58
+0.052080631256103516  seconds
+20180214011123 panathur 7
+panathur location searched in past 4 hour.Latest known timestamp: 2018-02-14 01:04:58
+0.060004234313964844  seconds
+20180214011143 panathur 3
+panathur location searched in past 4 hour.Latest known timestamp: 2018-02-14 01:04:58
+0.07603144645690918  seconds
+20180214011216 marathahalli 7
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent\r\n200\r\nhttps://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent/Page-1\r\n200\r\nhttps://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent/Page-2\r\n200\r\nhttps://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent/Page-3\r\n200\r\nhttps://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent/Page-4\r\n200\r\nhttps://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Marathahalli&&pageOption=B&parameter=recent/Page-5\r\n200\r\n112 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-marathahalli-bangalore-east-ffid\r\n75 rows inserted successfully. \r\n'
+30.496491193771362  seconds
+20180214011820 marathahalli 3
+marathahalli location searched in past 4 hour.Latest known timestamp: 2018-02-14 01:12:16
+0.06255340576171875  seconds
+20180214103349 panathur 3
+b'https://m.magicbricks.com/mbs/property-for-rent/residential-real-estate?proptype=Apartment,Builder-Floor,Penthouse,Studio-Apt.&cityName=Bangalore&Locality=Panathur&&pageOption=B&parameter=recent\r\n200\r\n5 rows inserted successfully. \r\n'
+b'https://www.99acres.com/rent-property-in-panathur-bangalore-east-ffid\r\n2 rows inserted successfully. \r\n'
+25.591066360473633  seconds
